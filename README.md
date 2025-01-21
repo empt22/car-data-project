@@ -1,6 +1,6 @@
 # Car Data Project
 
-This is a project to use DBT in python using DuckDB to create a database and performing 
+This is a project to use DBT in Python using DuckDB to create a database and performing 
 joins and other transforms on open source data.
 
 ### Data sources include:
