@@ -1,0 +1,13 @@
+
+    
+    
+    
+    create table "dev"."main"."Kaggle_2024_vehicles" ("name" text,"description" text,"make" text,"model" text,"type" text,"year" integer,"price" integer,"engine" text,"cylinders" integer,"fuel" text,"mileage" integer,"transmission" text,"trim" text,"body" text,"doors" integer,"exterior_color" text,"interior_color" text,"drivetrain" text)
+  ;
+    -- dbt seed --
+    
+          COPY "dev"."main"."Kaggle_2024_vehicles" FROM '/home/cloudshell-user/car-data-project/dbt_project/seeds/Kaggle_2024_vehicles.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  

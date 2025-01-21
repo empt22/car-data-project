@@ -1,0 +1,13 @@
+
+    
+    
+    
+    create table "dev"."main"."Ram_2020_and_newer" ("range" integer,"cityuf" integer,"citycd" integer,"pv2" integer,"barrelsa08" integer,"mfrcode" text,"city08" integer,"lv4" integer,"rangehwy" integer,"co2a" integer,"mpgdata" text,"uhighway" float8,"highway08" integer,"startstop" text,"comb08u" float8,"year" integer,"model" text,"fueltype" text,"displ" float8,"highwayuf" integer,"highwaye" integer,"cylinders" integer,"co2" integer,"charge240" integer,"phevblended" boolean,"drive" text,"highwaya08u" integer,"highwaya08" integer,"make" text,"highway08u" float8,"phevcomb" integer,"fuelcosta08" integer,"ucitya" integer,"ghgscore" integer,"combe" integer,"basemodel" text,"phevcity" integer,"barrels08" float8,"fuelcost08" integer,"pv4" integer,"fescore" integer,"co2tailpipegpm" integer,"citya08u" integer,"charge240b" integer,"comba08u" integer,"rangecitya" integer,"charge120" integer,"co2tailpipeagpm" integer,"fueltype1" text,"lv2" integer,"id" integer,"trany" text,"highwaycd" integer,"yousavespend" integer,"citya08" integer,"ucity" float8,"vclass" text,"createdon" date,"city08u" float8,"combineduf" integer,"modifiedon" date,"rangecity" integer,"citye" integer,"comb08" integer,"uhighwaya" integer,"rangehwya" integer,"phevhwy" integer,"hpv" integer,"engid" integer,"hlv" integer,"comba08" integer,"combinedcd" integer,"tcharger" text,"eng_dscr" text,"atvtype" text,"evmotor" text,"scharger" text)
+  ;
+    -- dbt seed --
+    
+          COPY "dev"."main"."Ram_2020_and_newer" FROM '/home/cloudshell-user/car-data-project/dbt_project/seeds/Ram_2020_and_newer.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  
