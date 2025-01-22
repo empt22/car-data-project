@@ -1,2 +1,2 @@
 select *
-from "dev"."main"."all_vehicles_model"
+from "dev"."main"."Kaggle_2024_vehicles"

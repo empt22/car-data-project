@@ -1,2 +1,2 @@
 select *
-from {{ ref('all_vehicles_model') }}
+from {{ ref('Kaggle_2024_vehicles') }}
