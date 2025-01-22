@@ -15,9 +15,9 @@ The input data is not included in this Repo to avoid posting API data publicly, 
 ### Seeds files
 These are the input seed files (stored separately). The first file is from Kaggle, the make files are from opendatasoft.
 
-*Kaggle_2024_vehicles.csv
-*Dodge.csv
-*Ram.csv
-*Ford.csv
-*Hyundai.csv
-*Jeep.csv
+*Kaggle_2024_vehicles.csv  
+*Dodge.csv  
+*Ram.csv  
+*Ford.csv  
+*Hyundai.csv  
+*Jeep.csv  
