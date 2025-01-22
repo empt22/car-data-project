@@ -4,7 +4,7 @@
     truncate table "dev"."main"."Kaggle_2024_vehicles";
     -- dbt seed --
     
-          COPY "dev"."main"."Kaggle_2024_vehicles" FROM '/home/cloudshell-user/car-data-project/dbt_project/seeds/Kaggle_2024_vehicles.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+          COPY "dev"."main"."Kaggle_2024_vehicles" FROM '/content/car-data-project/dbt_project/seeds/Kaggle_2024_vehicles.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
         
 
 ;
