@@ -1,12 +1,10 @@
 
     
     
-    
-    create table "dev"."main"."Hyundai_2020_and_newer" ("range" integer,"cityuf" float8,"citycd" integer,"pv2" integer,"barrelsa08" float8,"mfrcode" text,"city08" integer,"lv4" integer,"rangehwy" float8,"co2a" integer,"mpgdata" text,"uhighway" float8,"highway08" integer,"tcharger" text,"startstop" text,"comb08u" float8,"year" integer,"model" text,"fueltype" text,"displ" float8,"highwayuf" float8,"highwaye" float8,"cylinders" integer,"co2" integer,"charge240" float8,"phevblended" boolean,"drive" text,"highwaya08u" float8,"highwaya08" integer,"make" text,"highway08u" float8,"phevcomb" integer,"fuelcosta08" integer,"ucitya" float8,"ghgscore" integer,"combe" float8,"basemodel" text,"phevcity" integer,"barrels08" float8,"fuelcost08" integer,"pv4" integer,"fescore" integer,"co2tailpipegpm" integer,"citya08u" float8,"charge240b" integer,"comba08u" float8,"rangecitya" float8,"charge120" integer,"co2tailpipeagpm" integer,"fueltype1" text,"lv2" integer,"id" integer,"trany" text,"highwaycd" integer,"yousavespend" integer,"citya08" integer,"ucity" float8,"vclass" text,"createdon" date,"city08u" float8,"combineduf" float8,"modifiedon" date,"rangecity" float8,"citye" float8,"comb08" integer,"eng_dscr" text,"uhighwaya" float8,"rangehwya" float8,"phevhwy" integer,"hpv" integer,"engid" integer,"hlv" integer,"comba08" integer,"combinedcd" integer,"atvtype" text,"evmotor" text,"fueltype2" text,"rangea" integer)
-  ;
+    truncate table "dev"."main"."Hyundai_2020_and_newer";
     -- dbt seed --
     
-          COPY "dev"."main"."Hyundai_2020_and_newer" FROM '/home/cloudshell-user/car-data-project/dbt_project/seeds/Hyundai_2020_and_newer.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+          COPY "dev"."main"."Hyundai_2020_and_newer" FROM '/content/car-data-project/dbt_project/seeds/Hyundai_2020_and_newer.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
         
 
 ;
