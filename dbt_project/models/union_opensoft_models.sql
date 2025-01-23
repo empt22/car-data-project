@@ -1,30 +1,20 @@
 {# union to stack all make-specific API calls into one table #}
 
 with ford as (
-select make, model, year, fueltype, city08, highway08
-from {{ ref('Ford') }}
+    {{ select_columns('Ford') }}
 )
 , hyundai as (
-select make, model, year, fueltype, city08, highway08
-from {{ ref('Hyundai') }}
+    {{ select_columns('Hyundai') }}
 )
 , jeep as (
-select make, model, year, fueltype, city08, highway08
-from {{ ref('Jeep') }}
+    {{ select_columns('Jeep') }}
 )
 , ram as (
-select make, model, year, fueltype, city08, highway08
-from {{ ref('Ram') }}
+    {{ select_columns('Ram') }}
 )
 , dodge as (
-select make, model, year, fueltype, city08, highway08
-from {{ ref('Dodge') }}
+    {{ select_columns('Dodge') }}
 )
-
-
-
-
-
 
 
 select * from jeep

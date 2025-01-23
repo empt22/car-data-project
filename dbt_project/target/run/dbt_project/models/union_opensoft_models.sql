@@ -4,30 +4,115 @@
     
 
 with ford as (
-select make, model, year, fueltype, city08, highway08
+    
+select
+    make,
+    model,
+    year,
+    fueltype,
+    fueltype1,
+    drive,
+    basemodel,
+    uhighway,
+    ucity,
+    highway08,
+    city08,
+    atvtype,
+    vclass,
+    highwaye,
+    citye
 from "dev"."main"."Ford"
+
+
 )
 , hyundai as (
-select make, model, year, fueltype, city08, highway08
+    
+select
+    make,
+    model,
+    year,
+    fueltype,
+    fueltype1,
+    drive,
+    basemodel,
+    uhighway,
+    ucity,
+    highway08,
+    city08,
+    atvtype,
+    vclass,
+    highwaye,
+    citye
 from "dev"."main"."Hyundai"
+
+
 )
 , jeep as (
-select make, model, year, fueltype, city08, highway08
+    
+select
+    make,
+    model,
+    year,
+    fueltype,
+    fueltype1,
+    drive,
+    basemodel,
+    uhighway,
+    ucity,
+    highway08,
+    city08,
+    atvtype,
+    vclass,
+    highwaye,
+    citye
 from "dev"."main"."Jeep"
+
+
 )
 , ram as (
-select make, model, year, fueltype, city08, highway08
+    
+select
+    make,
+    model,
+    year,
+    fueltype,
+    fueltype1,
+    drive,
+    basemodel,
+    uhighway,
+    ucity,
+    highway08,
+    city08,
+    atvtype,
+    vclass,
+    highwaye,
+    citye
 from "dev"."main"."Ram"
+
+
 )
 , dodge as (
-select make, model, year, fueltype, city08, highway08
+    
+select
+    make,
+    model,
+    year,
+    fueltype,
+    fueltype1,
+    drive,
+    basemodel,
+    uhighway,
+    ucity,
+    highway08,
+    city08,
+    atvtype,
+    vclass,
+    highwaye,
+    citye
 from "dev"."main"."Dodge"
+
+
 )
-
-
-
-
-
 
 
 select * from jeep

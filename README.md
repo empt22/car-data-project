@@ -1,6 +1,6 @@
 # Car Data Project
 
-DBT Documentation for project saved here: [DBT_Docs](http://my-dbt-index-docs-file.s3-website-us-east-1.amazonaws.com)
+DBT Documentation from "dbt docs generate" for this Repo saved here: [car-data-project-DBT-DOCS](http://my-dbt-index-docs-file.s3-website-us-east-1.amazonaws.com)
 
 This is a project to use DBT in Python using DuckDB to create a database and performing 
 joins and other transforms on open source data.
