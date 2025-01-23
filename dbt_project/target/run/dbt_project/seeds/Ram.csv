@@ -4,7 +4,7 @@
     truncate table "dev"."main"."Ram";
     -- dbt seed --
     
-          COPY "dev"."main"."Ram" FROM '/content/car-data-project/dbt_project/seeds/Ram.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+          COPY "dev"."main"."Ram" FROM '/home/cloudshell-user/car-data-project/dbt_project/seeds/Ram.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
         
 
 ;

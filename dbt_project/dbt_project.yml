@@ -38,5 +38,15 @@ models:
 # configuring seeds
 seeds:
   dbt_project:
-    all_vehicles_model:
+    Kaggle_2024_vehicles:
+      enabled: true
+    Ford:
+      enabled: true
+    Hyundai:
+      enabled: true
+    Jeep:
+      enabled: true
+    Ram:
+      enabled: true
+    Dodge:
       enabled: true
